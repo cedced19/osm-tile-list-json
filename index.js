@@ -49,6 +49,7 @@ module.exports = function (borders, minZoom, maxZoom, onlyCorners, tileBuffer) {
             }
         }
     })
+    //console.log(result)
     return result;
 }
 
@@ -58,7 +59,7 @@ function createSquare(borders) {
     var a2 = borders[0].longitude
     var b1 = borders[1].latitude
     var b2 = borders[1].longitude
-    return [[a1, a2], [a1, b2], [b1, a2], [b1, b2]];
+    return [[a2, a1], [b2, a1], [a2, b1], [b2, b1]];
 }
 
 

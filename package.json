@@ -37,6 +37,7 @@
     "geojson-bbox": "0.0.0",
     "greiner-hormann": "^1.4.1",
     "point-in-polygon": "^1.0.1",
+    "start-chrome": "0.0.3",
     "turf-buffer": "^3.0.12"
   }
 }
