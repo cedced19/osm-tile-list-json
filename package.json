@@ -1,0 +1,42 @@
+{
+  "name": "osm-tile-list-json",
+  "version": "0.0.0",
+  "description": "Based on 'osm-tile-list' but for my needs.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedced19/osm-tile-list-json.git"
+  },
+  "keywords": [
+    "OSM",
+    "points",
+    "json",
+    "gpx",
+    "tile",
+    "list",
+    "lat",
+    "long"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Cédric JUNG <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/osm-tile-list-json/issues"
+  },
+  "homepage": "https://github.com/cedced19/osm-tile-list-json#readme",
+  "devDependencies": {
+    "get-region-delimitations": "0.0.0",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "geojson-bbox": "0.0.0",
+    "greiner-hormann": "^1.4.1",
+    "point-in-polygon": "^1.0.1",
+    "turf-buffer": "^3.0.12"
+  }
+}
