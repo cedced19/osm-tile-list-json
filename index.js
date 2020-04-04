@@ -32,7 +32,7 @@ module.exports = function (borders, minZoom, maxZoom, onlyCorners, tileBuffer) {
                         return pointInPolygon(pt, poly.coordinates[0])
                     })
                 if (anyPointIn) {
-                    r = [z, x, y].join('/') + '.png'
+                    r = {x:x,y:y,z:z}
                     result.push(r)
                 }
                 if (!anyPointIn && !onlyCorners) {
@@ -42,7 +42,7 @@ module.exports = function (borders, minZoom, maxZoom, onlyCorners, tileBuffer) {
                         poly.coordinates[0].slice(0, -1),
                         cornersWithCenter.slice(0, cornersWithCenter.length - 1)) //remove ctr
                     if (int) {
-                        r = [z, x, y].join('/') + '.png'
+                        r = {x:x,y:y,z:z}
                         result.push(r)
                     }
                 }
