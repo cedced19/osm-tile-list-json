@@ -74,7 +74,11 @@ function tileCornersWithCenter(z, x, y) {
         [right, bottom],
         [right, top],
         [left, top],
-        [(left + right) / 2, (bottom + top) / 2]
+        [(left + right) / 2, (bottom + top) / 2],
+	    [(left + right) * 3 / 4, (bottom + top) / 4],
+        [(left + right) / 4, (bottom + top) * 3 / 4],
+        [(left + right) / 4, (bottom + top) / 4],
+	    [(left + right) * 3 / 4, (bottom + top) * 3 / 4]
     ]
 }
 

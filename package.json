@@ -1,6 +1,6 @@
 {
   "name": "osm-tile-list-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Based on 'osm-tile-list' but for my needs.",
   "main": "index.js",
   "repository": {
